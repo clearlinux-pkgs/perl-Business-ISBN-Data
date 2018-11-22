@@ -4,7 +4,7 @@
 #
 Name     : perl-Business-ISBN-Data
 Version  : 20140910.003
-Release  : 3
+Release  : 4
 URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20140910.003.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20140910.003.tar.gz
 Summary  : 'data pack for Business::ISBN'
@@ -72,9 +72,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Business/ISBN/Data.pm
-/usr/lib/perl5/vendor_perl/5.26.1/Business/ISBN/RangeMessage.xml
-/usr/lib/perl5/vendor_perl/5.26.1/Business/ISBN/make_data.pl
+/usr/lib/perl5/vendor_perl/5.28.0/Business/ISBN/Data.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Business/ISBN/RangeMessage.xml
+/usr/lib/perl5/vendor_perl/5.28.0/Business/ISBN/make_data.pl
 
 %files dev
 %defattr(-,root,root,-)
