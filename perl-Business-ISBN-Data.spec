@@ -72,9 +72,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1Business/ISBN/Data.pm
-/usr/lib/perl5/vendor_perl/5.28.1Business/ISBN/RangeMessage.xml
-/usr/lib/perl5/vendor_perl/5.28.1Business/ISBN/make_data.pl
+/usr/lib/perl5/vendor_perl/5.28.1/Business/ISBN/Data.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Business/ISBN/RangeMessage.xml
+/usr/lib/perl5/vendor_perl/5.28.1/Business/ISBN/make_data.pl
 
 %files dev
 %defattr(-,root,root,-)
