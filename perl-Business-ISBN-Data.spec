@@ -4,10 +4,10 @@
 #
 Name     : perl-Business-ISBN-Data
 Version  : 20140910.003
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20140910.003.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20140910.003.tar.gz
-Summary  : 'data pack for Business::ISBN'
+Summary  : Data pack for Business::ISBN
 Group    : Development/Tools
 License  : Artistic-1.0-Perl Artistic-2.0
 Requires: perl-Business-ISBN-Data-license = %{version}-%{release}
@@ -20,6 +20,7 @@ See the tests in the t/ directory for examples until I add some more.
 Summary: dev components for the perl-Business-ISBN-Data package.
 Group: Development
 Provides: perl-Business-ISBN-Data-devel = %{version}-%{release}
+Requires: perl-Business-ISBN-Data = %{version}-%{release}
 
 %description dev
 dev components for the perl-Business-ISBN-Data package.
