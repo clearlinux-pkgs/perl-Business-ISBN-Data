@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-Business-ISBN-Data
-Version  : 20230331.001
-Release  : 32
-URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20230331.001.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20230331.001.tar.gz
+Version  : 20230410.001
+Release  : 33
+URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20230410.001.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20230410.001.tar.gz
 Summary  : 'data pack for Business::ISBN'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-2.0 GPL-1.0
@@ -49,8 +49,8 @@ perl components for the perl-Business-ISBN-Data package.
 
 
 %prep
-%setup -q -n Business-ISBN-Data-20230331.001
-cd %{_builddir}/Business-ISBN-Data-20230331.001
+%setup -q -n Business-ISBN-Data-20230410.001
+cd %{_builddir}/Business-ISBN-Data-20230410.001
 
 %build
 export http_proxy=http://127.0.0.1:9/
