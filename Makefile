@@ -1,5 +1,5 @@
 PKG_NAME := perl-Business-ISBN-Data
-URL = https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20231010.001.tar.gz
+URL = https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20231013.001.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
