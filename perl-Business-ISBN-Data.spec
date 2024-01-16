@@ -6,10 +6,10 @@
 # autospec commit: ab27b0e
 #
 Name     : perl-Business-ISBN-Data
-Version  : 20240111.001
-Release  : 67
-URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20240111.001.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20240111.001.tar.gz
+Version  : 20240116.001
+Release  : 68
+URL      : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20240116.001.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20240116.001.tar.gz
 Summary  : 'data pack for Business::ISBN'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-2.0 GPL-1.0
@@ -51,10 +51,10 @@ perl components for the perl-Business-ISBN-Data package.
 
 
 %prep
-%setup -q -n Business-ISBN-Data-20240111.001
-cd %{_builddir}/Business-ISBN-Data-20240111.001
+%setup -q -n Business-ISBN-Data-20240116.001
+cd %{_builddir}/Business-ISBN-Data-20240116.001
 pushd ..
-cp -a Business-ISBN-Data-20240111.001 buildavx2
+cp -a Business-ISBN-Data-20240116.001 buildavx2
 popd
 
 %build
