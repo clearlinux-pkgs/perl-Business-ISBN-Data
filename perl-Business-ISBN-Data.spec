@@ -7,7 +7,7 @@
 #
 Name     : perl-Business-ISBN-Data
 Version  : 20250416.001
-Release  : 127
+Release  : 128
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-Data-20250416.001.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-Data-20250416.001.tar.gz
 Summary  : 'data pack for Business::ISBN'
